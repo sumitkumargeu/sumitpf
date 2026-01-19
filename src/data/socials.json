@@ -1,0 +1,86 @@
+{
+  "links": [
+    {
+      "id": "email",
+      "name": "Email",
+      "icon": "📧",
+      "url": "mailto:sumitkumarbittu@gmail.com",
+      "username": "sumitkumarbittu@gmail.com",
+      "description": "Available for collaborations, job opportunities, and project discussions",
+      "responseTime": "Within 24 hours"
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "icon": "💼",
+      "url": "https://www.linkedin.com/in/sumitkumarbittu/",
+      "username": "sumitkumarbittu",
+      "description": "Software Engineer | AI Enthusiast | Open to opportunities",
+      "stats": {
+        "connections": "500+"
+      }
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "icon": "💻",
+      "url": "https://github.com/sumitkumarbittu",
+      "username": "sumitkumarbittu",
+      "description": "Featured: AITeamCollab, DataVisualizer, AdvancedLZW",
+      "stats": {
+        "repos": "15+",
+        "commits": "500+",
+        "languages": ["Python", "C++", "JavaScript"]
+      }
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "icon": "📷",
+      "url": "https://www.instagram.com/sumitkumarbittu/",
+      "username": "sumitkumarbittu",
+      "description": "Behind-the-scenes of coding life & Team Dexter activities"
+    },
+    {
+      "id": "leetcode",
+      "name": "LeetCode",
+      "icon": "🏆",
+      "url": "https://leetcode.com/SumitKumarBittu",
+      "username": "SumitKumarBittu",
+      "description": "256+ problems solved, Contest Rating: 1489"
+    },
+    {
+      "id": "unstop",
+      "name": "Unstop",
+      "icon": "🎓",
+      "url": "https://unstop.com/u/sumitkum3925",
+      "username": "sumitkum3925",
+      "description": "Active in coding contests & skill assessments"
+    }
+  ],
+  "ventures": [
+    {
+      "id": "team-dexter",
+      "name": "Team Dexter",
+      "role": "Community Owner & Lead",
+      "icon": "👥",
+      "description": "A collaborative group of 25-30+ developers working on projects and competitions",
+      "stats": {
+        "activeMembers": 28,
+        "hackathonsOrganized": "5+",
+        "projectsCompleted": "12+"
+      },
+      "activities": ["Hackathons", "Workshops", "Collaborative projects", "Tech talks", "Code reviews"]
+    },
+    {
+      "id": "paydrive",
+      "name": "PayDrive.in",
+      "role": "Co-founder & Tech Lead",
+      "icon": "🚗",
+      "url": "https://facebook.paydrive.in",
+      "description": "Vehicle Insurance Agency streamlining insurance processes",
+      "services": ["Policy comparison", "Renewal", "Claims processing"],
+      "launch": "Q2 2024"
+    }
+  ]
+}

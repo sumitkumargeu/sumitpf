@@ -1,0 +1,37 @@
+{
+  "leetcode": {
+    "username": "SumitKumarBittu",
+    "profileUrl": "https://leetcode.com/SumitKumarBittu",
+    "contestRating": 1489,
+    "problemsSolved": 256,
+    "totalProblems": 3816,
+    "breakdown": {
+      "easy": { "solved": 126, "total": 922 },
+      "medium": { "solved": 97, "total": 1992 },
+      "hard": { "solved": 33, "total": 902 }
+    },
+    "globalRank": 384310,
+    "totalUsers": 813048,
+    "topPercentage": 47.76,
+    "maxStreak": 58,
+    "activeDays": 143,
+    "mainLanguage": "C++",
+    "cppProblems": 230
+  },
+  "unstop": {
+    "username": "sumitkum3925",
+    "profileUrl": "https://unstop.com/u/sumitkum3925",
+    "globalRank": 188413,
+    "totalPoints": 4174,
+    "competitions": 15,
+    "coursesCompleted": 8,
+    "skillAssessments": 12,
+    "averageScore": "75%+"
+  },
+  "coding": {
+    "totalLinesWritten": "50,000+",
+    "averageDailyCoding": "2-3 hours",
+    "consistencyScore": "85%",
+    "yearOverYearGrowth": "150%"
+  }
+}

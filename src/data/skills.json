@@ -1,0 +1,67 @@
+{
+  "topSkills": [
+    {
+      "name": "C++",
+      "icon": "💻",
+      "experience": "3+ years",
+      "proficiency": "Advanced",
+      "proficiencyLevel": 8,
+      "projects": ["AdvancedLZW", "230+ LeetCode Problems", "DSA Implementations"],
+      "specialties": ["STL & Templates", "Memory Management", "Algorithm Optimization", "File I/O Systems"]
+    },
+    {
+      "name": "Python",
+      "icon": "🐍",
+      "experience": "4+ years",
+      "proficiency": "Expert",
+      "proficiencyLevel": 9,
+      "projects": ["AITeamCollab", "DataVisualizer", "AiAgent", "GEU_Connect", "mDFSWeb"],
+      "specialties": ["Flask", "FastAPI", "Dash", "Pandas", "NumPy", "NLTK"]
+    },
+    {
+      "name": "Git",
+      "icon": "📊",
+      "experience": "3+ years",
+      "proficiency": "Advanced",
+      "proficiencyLevel": 8,
+      "projects": ["Version Control", "All Projects", "Team Collaboration"],
+      "specialties": ["Branch management", "Merge conflict resolution", "Code reviews", "CI/CD integration"],
+      "stats": {
+        "commits": "500+",
+        "repositories": "15+"
+      }
+    },
+    {
+      "name": "Flask",
+      "icon": "🧪",
+      "experience": "2+ years",
+      "proficiency": "Advanced",
+      "proficiencyLevel": 8,
+      "projects": ["AITeamCollab", "mDFSWeb", "GEU_Connect"],
+      "specialties": ["RESTful API design", "Database integration", "Authentication systems", "Template rendering"],
+      "stats": {
+        "productionApps": 5
+      }
+    },
+    {
+      "name": "FastAPI",
+      "icon": "⚡",
+      "experience": "1+ year",
+      "proficiency": "Intermediate",
+      "proficiencyLevel": 7,
+      "projects": ["REST APIs", "High Performance", "Async Operations"],
+      "specialties": ["Async/await patterns", "Type hints & validation", "Auto-generated docs", "High-performance APIs"]
+    }
+  ],
+  "familiarWith": [
+    { "name": "HTML5", "icon": "🌐" },
+    { "name": "CSS3", "icon": "🎨" },
+    { "name": "AWS", "icon": "☁️" },
+    { "name": "Dash/Plotly", "icon": "📈" }
+  ],
+  "exploring": [
+    { "name": "React", "icon": "⚛️" },
+    { "name": "JavaScript", "icon": "📜" },
+    { "name": "Node.js", "icon": "🟢" }
+  ]
+}

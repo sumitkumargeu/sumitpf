@@ -1,0 +1,56 @@
+[
+  {
+    "id": "python-data-science",
+    "title": "Python for Data Science",
+    "issuer": "LinkedIn Learning",
+    "date": "Dec 2023",
+    "icon": "🐍",
+    "description": "Advanced Python programming for data analysis and visualization",
+    "skills": ["Python", "Pandas", "NumPy", "Data Analysis"]
+  },
+  {
+    "id": "advanced-algorithms",
+    "title": "Advanced Algorithms",
+    "issuer": "Coursera",
+    "date": "Sep 2023",
+    "icon": "🧮",
+    "description": "Deep dive into algorithm design and analysis",
+    "skills": ["Algorithms", "Data Structures", "Problem Solving"]
+  },
+  {
+    "id": "flask-web-dev",
+    "title": "Web Development with Flask",
+    "issuer": "Udemy",
+    "date": "Jul 2023",
+    "icon": "🌐",
+    "description": "Building production-ready web applications with Flask",
+    "skills": ["Flask", "Python", "Web Development", "REST API"]
+  },
+  {
+    "id": "cpp-mastery",
+    "title": "C++ Programming Mastery",
+    "issuer": "Unstop",
+    "date": "May 2023",
+    "icon": "💻",
+    "description": "Advanced C++ concepts and competitive programming",
+    "skills": ["C++", "STL", "OOP", "Performance"]
+  },
+  {
+    "id": "dsa",
+    "title": "Data Structures & Algorithms",
+    "issuer": "Unstop",
+    "date": "Mar 2023",
+    "icon": "📊",
+    "description": "Comprehensive DSA training with practical implementations",
+    "skills": ["DSA", "Problem Solving", "Optimization"]
+  },
+  {
+    "id": "cloud-computing",
+    "title": "Cloud Computing Fundamentals",
+    "issuer": "AWS",
+    "date": "Jan 2023",
+    "icon": "☁️",
+    "description": "Introduction to cloud services and AWS ecosystem",
+    "skills": ["AWS", "Cloud", "EC2", "S3"]
+  }
+]
