@@ -1,0 +1,56 @@
+[
+  {
+    "id": "code-snippet-manager",
+    "title": "Code Snippet Manager",
+    "date": "Dec 2024",
+    "icon": "📝",
+    "description": "Personal tool to organize and quickly access code snippets across projects",
+    "tags": ["Python", "Flask", "SQLite"],
+    "details": "Features: Syntax highlighting, search, categorization, export to GitHub Gist"
+  },
+  {
+    "id": "leetcode-tracker",
+    "title": "LeetCode Problem Tracker",
+    "date": "Nov 2024",
+    "icon": "📈",
+    "description": "Dashboard to track coding problem progress with analytics",
+    "tags": ["Python", "Dash", "Plotly"],
+    "details": "Visualizes problem-solving patterns, difficulty distribution, and streak tracking"
+  },
+  {
+    "id": "project-template-generator",
+    "title": "Project Template Generator",
+    "date": "Oct 2024",
+    "icon": "🚀",
+    "description": "CLI tool to quickly scaffold new project structures",
+    "tags": ["Python", "CLI"],
+    "details": "Supports Flask, FastAPI, React templates with best practices"
+  },
+  {
+    "id": "api-response-validator",
+    "title": "API Response Validator",
+    "date": "Sep 2024",
+    "icon": "✅",
+    "description": "Testing utility for validating API responses during development",
+    "tags": ["Python", "Testing"],
+    "details": "JSON schema validation, response time tracking, automated testing"
+  },
+  {
+    "id": "git-commit-analyzer",
+    "title": "Git Commit Analyzer",
+    "date": "Aug 2024",
+    "icon": "📊",
+    "description": "Analyzes Git commit history to generate productivity insights",
+    "tags": ["Python", "Git"],
+    "details": "Shows commit frequency, peak productivity hours, language usage"
+  },
+  {
+    "id": "env-config-manager",
+    "title": "Environment Config Manager",
+    "date": "Jul 2024",
+    "icon": "⚙️",
+    "description": "Secure management of environment variables across projects",
+    "tags": ["Python", "Security"],
+    "details": "Encrypted storage, easy switching between dev/prod configs"
+  }
+]

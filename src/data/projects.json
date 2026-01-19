@@ -1,0 +1,92 @@
+[
+  {
+    "id": "aiteamcollab",
+    "name": "AITeamCollab",
+    "description": "A collaborative workspace platform that integrates team intelligence, analytics, and smart task management.",
+    "icon": "🧩",
+    "features": [
+      "Real-time collaboration tools",
+      "AI-powered task prioritization",
+      "Analytics dashboard with Dash",
+      "Team performance insights"
+    ],
+    "technologies": ["Python", "Flask", "JavaScript", "Dash"],
+    "githubUrl": "https://github.com/sumitkumarbittu/AITeamCollab",
+    "featured": true
+  },
+  {
+    "id": "datavisualizer",
+    "name": "DataVisualizer",
+    "description": "Turn raw CSV data into clean, interactive dashboards for insights and visualization.",
+    "icon": "📊",
+    "features": [
+      "Interactive charts and graphs",
+      "CSV file upload support",
+      "Multiple visualization types",
+      "Export reports as PDF/PNG"
+    ],
+    "technologies": ["Python", "Dash", "Plotly", "Pandas"],
+    "githubUrl": "https://github.com/sumitkumarbittu/DataVisualizer",
+    "featured": true
+  },
+  {
+    "id": "advancedlzw",
+    "name": "AdvancedLZW",
+    "description": "A C++ implementation of the LZW compression algorithm, optimized for speed and educational use.",
+    "icon": "💾",
+    "features": [
+      "High-speed compression",
+      "Lossless data compression",
+      "File size reduction up to 50%",
+      "Educational documentation"
+    ],
+    "technologies": ["C++", "File I/O", "Algorithms"],
+    "githubUrl": "https://github.com/sumitkumarbittu/AdvancedLZW",
+    "featured": true
+  },
+  {
+    "id": "mdfsweb",
+    "name": "mDFSWeb",
+    "description": "A distributed file system with lock management and remote access, built using Python.",
+    "icon": "🗂️",
+    "features": [
+      "Distributed architecture",
+      "File locking mechanism",
+      "Remote file access",
+      "Multi-user support"
+    ],
+    "technologies": ["Python", "Networking", "Flask"],
+    "githubUrl": "https://github.com/sumitkumarbittu/mDFSWeb",
+    "featured": true
+  },
+  {
+    "id": "aiagent",
+    "name": "AiAgent",
+    "description": "Sentiment analysis system that extracts actionable insights from user feedback using NLP.",
+    "icon": "🧠",
+    "features": [
+      "Natural Language Processing",
+      "Sentiment classification",
+      "Real-time feedback analysis",
+      "Customizable models"
+    ],
+    "technologies": ["Python", "NLTK", "ML"],
+    "githubUrl": "https://github.com/sumitkumarbittu/AiAgent",
+    "featured": true
+  },
+  {
+    "id": "geuconnect",
+    "name": "GEU_Connect",
+    "description": "Academic appointment scheduler enabling seamless student–teacher collaboration.",
+    "icon": "🎓",
+    "features": [
+      "Appointment scheduling",
+      "Email notifications",
+      "Calendar integration",
+      "Student-teacher messaging"
+    ],
+    "technologies": ["Python", "Flask", "SQLite"],
+    "githubUrl": "https://github.com/sumitkumarbittu/GEU_Connect",
+    "featured": false
+  }
+]
