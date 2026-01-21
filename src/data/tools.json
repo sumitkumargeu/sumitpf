@@ -1,12 +1,261 @@
 [
   {
+    "id": "qr-generator-pro",
+    "title": "QR Generator Pro",
+    "date": "Jan 2026",
+    "icon": "🚀",
+    "description": "Professional QR codes made fast, flexible, and future-ready",
+    "tags": ["Python", "Flask", "QR Code"],
+    "details": "Create powerful QR codes for URLs, WhatsApp, text, Wi-Fi, email, and contacts. Features live preview, brand control with modern styles/gradients, batch generation, and ultra-high resolution export (up to 16K).",
+    "features": [
+      "Live QR preview as you customize",
+      "Modern styles, colors, gradients, and layouts",
+      "Smart batch generation for scaling",
+      "Export in 1K, 2K, 4K, 8K, and 16K resolution",
+      "Scan, edit, and relaunch existing QR codes",
+      "Re-generate anytime without storing heavy files"
+    ],
+    "links": {
+      "demo": ["https://qr-generator.example.com"],
+      "repo": ["https://github.com/sumitkumarbittu/qr-generator-pro"]
+    },
+    "status": "production",
+    "featured": true
+  },
+  {
+    "id": "schema-builder-pro",
+    "title": "Schema Builder Pro",
+    "date": "Jan 2026",
+    "icon": "🚀",
+    "description": "Build complete backend systems in minutes — without writing everything from scratch",
+    "tags": ["Python", "Flask", "PostgreSQL", "Backend"],
+    "details": "Visually design your data and instantly get a ready-to-use backend app. Create tables and fields with a simple, guided builder. Auto-generate APIs, validation, and database logic.",
+    "features": [
+      "Visual data design with instant backend generation",
+      "Simple, guided table and field builder",
+      "Auto-generate APIs, validation, and database logic",
+      "Handle file uploads with built-in limits and rules",
+      "Instant error checking and live previews",
+      "Ready-to-deploy setup for Docker and cloud platforms",
+      "Built-in safety, validation, and error handling"
+    ],
+    "links": {
+      "demo": ["https://schema-builder.example.com"],
+      "repo": ["https://github.com/sumitkumarbittu/schema-builder-pro"]
+    },
+    "status": "production",
+    "featured": true
+  },
+  {
+    "id": "activity-tracker",
+    "title": "Website Activity Tracking",
+    "date": "Dec 2025",
+    "icon": "⚡",
+    "description": "Built for Speed & Reliability — Track who visits your website",
+    "tags": ["Python", "Flask", "Analytics"],
+    "details": "Tracks website visitors with small heartbeat updates. Keeps pages fast by avoiding heavy work during tracking. Stores events safely in smart batches.",
+    "features": [
+      "Tracks who visits your website",
+      "Sends small heartbeat updates while users stay active",
+      "Keeps pages fast by avoiding heavy work during tracking",
+      "Stores events safely and saves data in smart batches",
+      "Prevents duplicate data by keeping only latest activity per visit",
+      "Works on low-cost or free hosting where servers may sleep",
+      "Handles traffic spikes without crashing"
+    ],
+    "links": {
+      "demo": ["https://activity-tracker.example.com"],
+      "repo": ["https://github.com/sumitkumarbittu/activity-tracker"]
+    },
+    "status": "production",
+    "featured": true
+  },
+  {
+    "id": "analytics-dashboard",
+    "title": "Analytics Dashboard",
+    "date": "Dec 2025",
+    "icon": "📊",
+    "description": "See Your Website Data Clearly — Clean visual dashboard for session data",
+    "tags": ["Python", "Dash", "Plotly", "Analytics"],
+    "details": "Shows website session data in a clean, visual dashboard. Works with live data or simple CSV file uploads. Displays key numbers like sessions, users, pages, and activity.",
+    "features": [
+      "Clean, visual dashboard for website session data",
+      "Live data or CSV file uploads",
+      "Key metrics: sessions, users, pages, and activity",
+      "Charts showing trends over time, top pages, and top cities",
+      "Filter by date, page, city, or user type",
+      "Dark and light mode support",
+      "Export data as CSV or JSON"
+    ],
+    "links": {
+      "demo": ["https://analytics-dashboard.example.com"],
+      "repo": ["https://github.com/sumitkumarbittu/analytics-dashboard"]
+    },
+    "status": "production",
+    "featured": true
+  },
+  {
+    "id": "chat-support-widget",
+    "title": "Chat – Ask Support",
+    "date": "Nov 2025",
+    "icon": "💬",
+    "description": "A simple support chat you can add to any website in minutes",
+    "tags": ["Python", "Flask", "WebSocket", "Chat"],
+    "details": "Adds a floating chat widget to any website. Lets visitors ask questions and get replies easily. Works smoothly on static websites with no heavy setup.",
+    "features": [
+      "Floating chat widget for any website",
+      "Visitors can ask questions and get replies easily",
+      "Works on static websites (no heavy setup)",
+      "Supports file sharing like images and PDFs",
+      "Conversations linked to each visitor",
+      "Auto-updates messages without page reload",
+      "Basic access controls for safety"
+    ],
+    "links": {
+      "demo": ["https://chat-support.example.com"],
+      "repo": ["https://github.com/sumitkumarbittu/chat-support-widget"]
+    },
+    "status": "production",
+    "featured": true
+  },
+  {
+    "id": "dbchat-admin",
+    "title": "dbchat — Admin Chat Dashboard",
+    "date": "Nov 2025",
+    "icon": "💬",
+    "description": "Designed for admin dashboards to manage user conversations",
+    "tags": ["Python", "Flask", "PostgreSQL", "Admin"],
+    "details": "View and reply to chats directly from the database. Browse chat history using CSV files (no backend needed). Send messages with file attachments like images and PDFs.",
+    "features": [
+      "Manage user conversations from admin dashboard",
+      "View and reply to chats directly from database",
+      "Browse chat history using CSV files",
+      "Send messages with file attachments",
+      "Clean, conversation-style UI for easy moderation",
+      "Auto-updates while dashboard is open",
+      "Dark & light mode with mobile-friendly layout"
+    ],
+    "links": {
+      "demo": ["https://dbchat-admin.example.com"],
+      "repo": ["https://github.com/sumitkumarbittu/dbchat-admin"]
+    },
+    "status": "production",
+    "featured": false
+  },
+  {
+    "id": "db-query-executor",
+    "title": "DataBase Query Executor",
+    "date": "Oct 2025",
+    "icon": "🗄️",
+    "description": "Built for Fast Admin Access — Run PostgreSQL queries instantly from your browser",
+    "tags": ["Python", "PostgreSQL", "Admin", "CLI"],
+    "details": "Run PostgreSQL queries instantly from your browser. Connect to any PostgreSQL database with a simple connection string. Inspect, verify, and explore data in clean, instant tables.",
+    "features": [
+      "Run PostgreSQL queries instantly from browser",
+      "Connect to any PostgreSQL database with connection string",
+      "Inspect and explore data in clean, instant tables",
+      "Built-in live system clock for timezone awareness",
+      "Zero installation — lightweight and fast",
+      "Query history stays private in your browser",
+      "One-click export as CSV or JSON"
+    ],
+    "links": {
+      "demo": ["https://db-query.example.com"],
+      "repo": ["https://github.com/sumitkumarbittu/db-query-executor"]
+    },
+    "status": "production",
+    "featured": false
+  },
+  {
+    "id": "dbi-file-injector",
+    "title": "DBI — Database File Injector",
+    "date": "Oct 2025",
+    "icon": "🧩",
+    "description": "Upload files. Fill databases. No manual work.",
+    "tags": ["Python", "Flask", "PostgreSQL", "ETL"],
+    "details": "Upload CSV or JSON files and push data straight into PostgreSQL. Automatically understands columns and structure from your files. Handles large files fast without freezing or crashing.",
+    "features": [
+      "Upload CSV or JSON files to PostgreSQL",
+      "Auto-detect columns and structure",
+      "Handle large files fast without freezing",
+      "Skip existing records to avoid duplicates",
+      "Background imports with live progress tracking",
+      "Clean web UI or simple API calls",
+      "Ready for cloud and Docker deployment"
+    ],
+    "links": {
+      "demo": ["https://dbi-injector.example.com"],
+      "repo": ["https://github.com/sumitkumarbittu/dbi-file-injector"]
+    },
+    "status": "production",
+    "featured": false
+  },
+  {
+    "id": "data-visualizer-tool",
+    "title": "DataVisualizer",
+    "date": "Sep 2025",
+    "icon": "📈",
+    "description": "Turn raw CSV data into clear insights, visualizations, and reusable code",
+    "tags": ["Python", "Dash", "Plotly", "Pandas"],
+    "details": "Analyze, visualize, and preprocess data in one simple workflow. From CSV files to charts and clean preprocessing code. A practical tool for data analysis, visualization, and preparation.",
+    "features": [
+      "Analyze, visualize, and preprocess data in one workflow",
+      "From CSV files to charts and clean preprocessing code",
+      "Practical data analysis and preparation tool",
+      "Understand your data faster with structured visuals",
+      "Simple data exploration with ready-to-use scripts"
+    ],
+    "links": {
+      "demo": ["https://datavisualizer.example.com"],
+      "repo": ["https://github.com/sumitkumarbittu/DataVisualizer"]
+    },
+    "status": "production",
+    "featured": false
+  },
+  {
+    "id": "notebook-os",
+    "title": "Notebook OS (.NOTE)",
+    "date": "Aug 2025",
+    "icon": "📦",
+    "description": "Local-First Research Notebook — Organize notes, reading lists, and projects in one place",
+    "tags": ["JavaScript", "LocalStorage", "Notes"],
+    "details": "Write and store quick research notes in the browser. Add short summaries and reference images to each note. Create reading lists and group them into projects or collections.",
+    "features": [
+      "Quick research notes stored in browser",
+      "Add summaries and reference images to notes",
+      "Create reading lists and group into projects",
+      "Everything stored locally (no server)",
+      "Export all work as one .NOTE file",
+      "Import .NOTE file and continue where you left off",
+      "Simple, distraction-free design with light & dark mode"
+    ],
+    "links": {
+      "demo": ["https://notebook-os.example.com"],
+      "repo": ["https://github.com/sumitkumarbittu/notebook-os"]
+    },
+    "status": "production",
+    "featured": false
+  },
+  {
     "id": "code-snippet-manager",
     "title": "Code Snippet Manager",
     "date": "Dec 2024",
     "icon": "📝",
     "description": "Personal tool to organize and quickly access code snippets across projects",
     "tags": ["Python", "Flask", "SQLite"],
-    "details": "Features: Syntax highlighting, search, categorization, export to GitHub Gist"
+    "details": "Features: Syntax highlighting, search, categorization, export to GitHub Gist",
+    "features": [
+      "Syntax highlighting for multiple languages",
+      "Fast search across all snippets",
+      "Categorization and tagging",
+      "Export to GitHub Gist"
+    ],
+    "links": {
+      "demo": [],
+      "repo": ["https://github.com/sumitkumarbittu/code-snippet-manager"]
+    },
+    "status": "personal",
+    "featured": false
   },
   {
     "id": "leetcode-tracker",
@@ -15,7 +264,19 @@
     "icon": "📈",
     "description": "Dashboard to track coding problem progress with analytics",
     "tags": ["Python", "Dash", "Plotly"],
-    "details": "Visualizes problem-solving patterns, difficulty distribution, and streak tracking"
+    "details": "Visualizes problem-solving patterns, difficulty distribution, and streak tracking",
+    "features": [
+      "Visualize problem-solving patterns",
+      "Difficulty distribution charts",
+      "Streak tracking",
+      "Progress analytics"
+    ],
+    "links": {
+      "demo": [],
+      "repo": ["https://github.com/sumitkumarbittu/leetcode-tracker"]
+    },
+    "status": "personal",
+    "featured": false
   },
   {
     "id": "project-template-generator",
@@ -24,7 +285,19 @@
     "icon": "🚀",
     "description": "CLI tool to quickly scaffold new project structures",
     "tags": ["Python", "CLI"],
-    "details": "Supports Flask, FastAPI, React templates with best practices"
+    "details": "Supports Flask, FastAPI, React templates with best practices",
+    "features": [
+      "Flask project templates",
+      "FastAPI project templates",
+      "React project templates",
+      "Best practices built-in"
+    ],
+    "links": {
+      "demo": [],
+      "repo": ["https://github.com/sumitkumarbittu/project-template-generator"]
+    },
+    "status": "personal",
+    "featured": false
   },
   {
     "id": "api-response-validator",
@@ -33,7 +306,18 @@
     "icon": "✅",
     "description": "Testing utility for validating API responses during development",
     "tags": ["Python", "Testing"],
-    "details": "JSON schema validation, response time tracking, automated testing"
+    "details": "JSON schema validation, response time tracking, automated testing",
+    "features": [
+      "JSON schema validation",
+      "Response time tracking",
+      "Automated testing"
+    ],
+    "links": {
+      "demo": [],
+      "repo": ["https://github.com/sumitkumarbittu/api-response-validator"]
+    },
+    "status": "personal",
+    "featured": false
   },
   {
     "id": "git-commit-analyzer",
@@ -42,7 +326,18 @@
     "icon": "📊",
     "description": "Analyzes Git commit history to generate productivity insights",
     "tags": ["Python", "Git"],
-    "details": "Shows commit frequency, peak productivity hours, language usage"
+    "details": "Shows commit frequency, peak productivity hours, language usage",
+    "features": [
+      "Commit frequency analysis",
+      "Peak productivity hours",
+      "Language usage stats"
+    ],
+    "links": {
+      "demo": [],
+      "repo": ["https://github.com/sumitkumarbittu/git-commit-analyzer"]
+    },
+    "status": "personal",
+    "featured": false
   },
   {
     "id": "env-config-manager",
@@ -51,6 +346,16 @@
     "icon": "⚙️",
     "description": "Secure management of environment variables across projects",
     "tags": ["Python", "Security"],
-    "details": "Encrypted storage, easy switching between dev/prod configs"
+    "details": "Encrypted storage, easy switching between dev/prod configs",
+    "features": [
+      "Encrypted storage",
+      "Easy dev/prod switching"
+    ],
+    "links": {
+      "demo": [],
+      "repo": ["https://github.com/sumitkumarbittu/env-config-manager"]
+    },
+    "status": "personal",
+    "featured": false
   }
 ]

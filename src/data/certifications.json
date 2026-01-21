@@ -6,7 +6,12 @@
     "date": "Dec 2023",
     "icon": "🐍",
     "description": "Advanced Python programming for data analysis and visualization",
-    "skills": ["Python", "Pandas", "NumPy", "Data Analysis"]
+    "skills": ["Python", "Pandas", "NumPy", "Data Analysis"],
+    "links": {
+      "certificate": "https://linkedin.com/learning/certificates/example1",
+      "course": "https://linkedin.com/learning/python-data-science"
+    },
+    "featured": true
   },
   {
     "id": "advanced-algorithms",
@@ -15,7 +20,12 @@
     "date": "Sep 2023",
     "icon": "🧮",
     "description": "Deep dive into algorithm design and analysis",
-    "skills": ["Algorithms", "Data Structures", "Problem Solving"]
+    "skills": ["Algorithms", "Data Structures", "Problem Solving"],
+    "links": {
+      "certificate": "https://coursera.org/verify/example2",
+      "course": "https://coursera.org/learn/advanced-algorithms"
+    },
+    "featured": true
   },
   {
     "id": "flask-web-dev",
@@ -24,7 +34,12 @@
     "date": "Jul 2023",
     "icon": "🌐",
     "description": "Building production-ready web applications with Flask",
-    "skills": ["Flask", "Python", "Web Development", "REST API"]
+    "skills": ["Flask", "Python", "Web Development", "REST API"],
+    "links": {
+      "certificate": "https://udemy.com/certificate/example3",
+      "course": "https://udemy.com/course/flask-web-development"
+    },
+    "featured": true
   },
   {
     "id": "cpp-mastery",
@@ -33,7 +48,11 @@
     "date": "May 2023",
     "icon": "💻",
     "description": "Advanced C++ concepts and competitive programming",
-    "skills": ["C++", "STL", "OOP", "Performance"]
+    "skills": ["C++", "STL", "OOP", "Performance"],
+    "links": {
+      "certificate": "https://unstop.com/certificate/example4"
+    },
+    "featured": false
   },
   {
     "id": "dsa",
@@ -42,7 +61,11 @@
     "date": "Mar 2023",
     "icon": "📊",
     "description": "Comprehensive DSA training with practical implementations",
-    "skills": ["DSA", "Problem Solving", "Optimization"]
+    "skills": ["DSA", "Problem Solving", "Optimization"],
+    "links": {
+      "certificate": "https://unstop.com/certificate/example5"
+    },
+    "featured": false
   },
   {
     "id": "cloud-computing",
@@ -51,6 +74,11 @@
     "date": "Jan 2023",
     "icon": "☁️",
     "description": "Introduction to cloud services and AWS ecosystem",
-    "skills": ["AWS", "Cloud", "EC2", "S3"]
+    "skills": ["AWS", "Cloud", "EC2", "S3"],
+    "links": {
+      "certificate": "https://aws.amazon.com/verification/example6",
+      "course": "https://aws.amazon.com/training/cloud-practitioner"
+    },
+    "featured": false
   }
 ]

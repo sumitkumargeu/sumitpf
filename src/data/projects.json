@@ -11,7 +11,10 @@
       "Team performance insights"
     ],
     "technologies": ["Python", "Flask", "JavaScript", "Dash"],
-    "githubUrl": "https://github.com/sumitkumarbittu/AITeamCollab",
+    "links": {
+      "demo": ["https://aiteamcollab.example.com"],
+      "repo": ["https://github.com/sumitkumarbittu/AITeamCollab"]
+    },
     "featured": true
   },
   {
@@ -26,7 +29,10 @@
       "Export reports as PDF/PNG"
     ],
     "technologies": ["Python", "Dash", "Plotly", "Pandas"],
-    "githubUrl": "https://github.com/sumitkumarbittu/DataVisualizer",
+    "links": {
+      "demo": ["https://datavisualizer.example.com"],
+      "repo": ["https://github.com/sumitkumarbittu/DataVisualizer"]
+    },
     "featured": true
   },
   {
@@ -41,7 +47,10 @@
       "Educational documentation"
     ],
     "technologies": ["C++", "File I/O", "Algorithms"],
-    "githubUrl": "https://github.com/sumitkumarbittu/AdvancedLZW",
+    "links": {
+      "demo": [],
+      "repo": ["https://github.com/sumitkumarbittu/AdvancedLZW"]
+    },
     "featured": true
   },
   {
@@ -56,7 +65,10 @@
       "Multi-user support"
     ],
     "technologies": ["Python", "Networking", "Flask"],
-    "githubUrl": "https://github.com/sumitkumarbittu/mDFSWeb",
+    "links": {
+      "demo": ["https://mdfsweb.example.com"],
+      "repo": ["https://github.com/sumitkumarbittu/mDFSWeb"]
+    },
     "featured": true
   },
   {
@@ -71,7 +83,10 @@
       "Customizable models"
     ],
     "technologies": ["Python", "NLTK", "ML"],
-    "githubUrl": "https://github.com/sumitkumarbittu/AiAgent",
+    "links": {
+      "demo": ["https://aiagent.example.com"],
+      "repo": ["https://github.com/sumitkumarbittu/AiAgent"]
+    },
     "featured": true
   },
   {
@@ -86,7 +101,10 @@
       "Student-teacher messaging"
     ],
     "technologies": ["Python", "Flask", "SQLite"],
-    "githubUrl": "https://github.com/sumitkumarbittu/GEU_Connect",
+    "links": {
+      "demo": [],
+      "repo": ["https://github.com/sumitkumarbittu/GEU_Connect"]
+    },
     "featured": false
   }
 ]
