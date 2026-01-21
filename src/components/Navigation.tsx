@@ -1,11 +1,14 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import { Link, useLocation } from "react-router-dom";
 import profile from "@/data/profile.json";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
+  const isHome = location.pathname === "/";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,12 +19,22 @@ const Navigation = () => {
   }, []);
 
   const navLinks = [
-    { href: "#about", label: "About" },
-    { href: "#projects", label: "Projects" },
-    { href: "#skills", label: "Skills" },
-    { href: "#achievements", label: "Achievements" },
-    { href: "#contact", label: "Contact" },
+    { href: "#about", label: "About", isSection: true },
+    { href: "#projects", label: "Projects", isSection: true },
+    { href: "#tools", label: "Tools", isSection: true },
+    { href: "#skills", label: "Skills", isSection: true },
+    { href: "#certifications", label: "Certs", isSection: true },
+    { href: "#achievements", label: "Achievements", isSection: true },
+    { href: "#contact", label: "Contact", isSection: true },
   ];
+
+  const handleNavClick = (href: string, isSection: boolean) => {
+    if (isSection && !isHome) {
+      // If on a different page, navigate to home first then scroll
+      return;
+    }
+    setIsOpen(false);
+  };
 
   return (
     <header
@@ -30,23 +43,33 @@ const Navigation = () => {
       }`}
     >
       <div className="container flex items-center justify-between px-4">
-        <a href="#" className="flex items-center gap-2">
+        <Link to="/" className="flex items-center gap-2">
           <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
             <span className="text-primary font-bold">SK</span>
           </div>
           <span className="font-semibold hidden sm:block">{profile.name.split(" ")[0]}</span>
-        </a>
+        </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              {link.label}
-            </a>
+            isHome ? (
+              <a
+                key={link.href}
+                href={link.href}
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                {link.label}
+              </a>
+            ) : (
+              <Link
+                key={link.href}
+                to={`/${link.href}`}
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                {link.label}
+              </Link>
+            )
           ))}
         </nav>
 
@@ -71,14 +94,25 @@ const Navigation = () => {
           >
             <div className="container py-4 px-4 flex flex-col gap-4">
               {navLinks.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setIsOpen(false)}
-                  className="text-foreground hover:text-primary transition-colors py-2"
-                >
-                  {link.label}
-                </a>
+                isHome ? (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => setIsOpen(false)}
+                    className="text-foreground hover:text-primary transition-colors py-2"
+                  >
+                    {link.label}
+                  </a>
+                ) : (
+                  <Link
+                    key={link.href}
+                    to={`/${link.href}`}
+                    onClick={() => setIsOpen(false)}
+                    className="text-foreground hover:text-primary transition-colors py-2"
+                  >
+                    {link.label}
+                  </Link>
+                )
               ))}
             </div>
           </motion.nav>
