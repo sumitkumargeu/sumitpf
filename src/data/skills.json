@@ -51,6 +51,15 @@
       "proficiencyLevel": 7,
       "projects": ["REST APIs", "High Performance", "Async Operations"],
       "specialties": ["Async/await patterns", "Type hints & validation", "Auto-generated docs", "High-performance APIs"]
+    },
+    {
+      "name": "Docker",
+      "icon": "🐳",
+      "experience": "1+ year",
+      "proficiency": "Intermediate",
+      "proficiencyLevel": 6,
+      "projects": ["Containerized Apps", "Cloud Deployments", "CI/CD Pipelines"],
+      "specialties": ["Container orchestration", "Docker Compose", "Image optimization", "Multi-stage builds"]
     }
   ],
   "familiarWith": [

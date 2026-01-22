@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface ContactCardProps {
@@ -29,8 +29,32 @@ const ContactCard = ({
   index,
 }: ContactCardProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
+  const [isTouching, setIsTouching] = useState(false);
 
   const hasDetails = description || responseTime || stats;
+
+  const handleTouchStart = useCallback(() => {
+    setIsTouching(true);
+    setIsExpanded(true);
+  }, []);
+
+  const handleTouchEnd = useCallback((e: React.TouchEvent) => {
+    // Prevent navigation on first touch, only expand
+    if (!isExpanded) {
+      e.preventDefault();
+    }
+    // Keep expanded briefly after touch ends
+    setTimeout(() => {
+      setIsTouching(false);
+    }, 2000);
+  }, [isExpanded]);
+
+  const handleClick = useCallback((e: React.MouseEvent) => {
+    // On mobile, first touch expands, second touch navigates
+    if (isTouching && !isExpanded) {
+      e.preventDefault();
+    }
+  }, [isTouching, isExpanded]);
 
   return (
     <motion.a
@@ -43,7 +67,10 @@ const ContactCard = ({
       viewport={{ once: true }}
       transition={{ duration: 0.3, delay: index * 0.05 }}
       onHoverStart={() => setIsExpanded(true)}
-      onHoverEnd={() => setIsExpanded(false)}
+      onHoverEnd={() => !isTouching && setIsExpanded(false)}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
+      onClick={handleClick}
       className="glass-card rounded-xl p-5 card-hover group block"
     >
       <div className="text-center">
