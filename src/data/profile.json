@@ -1,7 +1,7 @@
 {
   "name": "Sumit Kumar",
-  "title": "Software Engineer & Data Analyst",
-  "tagline": "Building innovative AI, IoT & Full-Stack solutions",
+  "title": "Software Engineer & AI Expert",
+  "tagline": "Building innovative AI, IoT & Data-driven solutions",
   "location": "India",
   "email": "sumitkumarbittu@gmail.com",
   "bio": "Passionate about building innovative solutions that bridge the gap between technology and real-world problems. Specializing in AI, IoT, and full-stack development with a focus on creating impactful systems.",
@@ -10,11 +10,12 @@
     "degree": "B.Tech in Engineering",
     "specialization": "Software Engineering",
     "university": "Graphic Era University, Dehradun",
-    "expectedGraduation": "2026"
+    "expectedGraduation": "2026",
+    "cgpa": "8.1"
   },
   "experience": {
     "yearsOfCoding": "4+",
-    "specializations": ["AI", "IoT", "Full-Stack"]
+    "specializations": ["AI", "IoT", "Data Analysis"]
   },
   "funFact": "I debug faster when I explain the problem to my coffee mug ☕"
 }

@@ -1,5 +1,89 @@
 [
   {
+    "id": "nirmaan-2025",
+    "title": "NIRMAAN Startup Buildathon 2025",
+    "issuer": "Motilal Nehru College, University of Delhi",
+    "date": "Jan 2026",
+    "icon": "🏆",
+    "description": "Participated in startup buildathon focused on innovative solutions",
+    "skills": ["Entrepreneurship", "Innovation", "Problem Solving", "Pitching"],
+    "links": {
+      "certificate": "https://unstop.com/certificate/nirmaan-2025"
+    },
+    "featured": true,
+    "source": "unstop"
+  },
+  {
+    "id": "adhunik-25",
+    "title": "Adhunik'25 Rethink",
+    "issuer": "Maharaja Agrasen College, University of Delhi",
+    "date": "Jan 2026",
+    "icon": "💡",
+    "description": "Participated in tech innovation challenge",
+    "skills": ["Innovation", "Technology", "Creative Thinking"],
+    "links": {
+      "certificate": "https://unstop.com/certificate/adhunik-25"
+    },
+    "featured": true,
+    "source": "unstop"
+  },
+  {
+    "id": "ideathon-1.0",
+    "title": "Ideathon 1.0 – From Idea to Prototype",
+    "issuer": "Lloyd Institute of Engineering and Technology",
+    "date": "Jan 2026",
+    "icon": "🚀",
+    "description": "Transformed innovative ideas into working prototypes",
+    "skills": ["Prototyping", "Product Development", "Ideation"],
+    "links": {
+      "certificate": "https://unstop.com/certificate/ideathon-1.0"
+    },
+    "featured": true,
+    "source": "unstop"
+  },
+  {
+    "id": "fec-mumbai-hackathon",
+    "title": "FEC Mumbai Hackathon",
+    "issuer": "Sardar Patel Institute of Technology",
+    "date": "Dec 2025",
+    "icon": "⚡",
+    "description": "Competed in intensive hackathon building real-world solutions",
+    "skills": ["Hackathon", "Team Collaboration", "Rapid Development"],
+    "links": {
+      "certificate": "https://unstop.com/certificate/fec-mumbai"
+    },
+    "featured": false,
+    "source": "unstop"
+  },
+  {
+    "id": "xtract-4.0",
+    "title": "Xtract 4.0",
+    "issuer": "SVKM's Dwarkadas J. Sanghvi College of Engineering, Mumbai",
+    "date": "Dec 2025",
+    "icon": "🔬",
+    "description": "Technical competition focused on extraction and analysis",
+    "skills": ["Data Extraction", "Analysis", "Technical Skills"],
+    "links": {
+      "certificate": "https://unstop.com/certificate/xtract-4.0"
+    },
+    "featured": false,
+    "source": "unstop"
+  },
+  {
+    "id": "innovision-innohacks",
+    "title": "INNOVISION'25 InnoHacks 2.0",
+    "issuer": "Netaji Subhas University of Technology, Delhi",
+    "date": "Dec 2025",
+    "icon": "🏅",
+    "description": "Participated in innovation hackathon at NSUT",
+    "skills": ["Innovation", "Hackathon", "Problem Solving"],
+    "links": {
+      "certificate": "https://unstop.com/certificate/innohacks-2.0"
+    },
+    "featured": false,
+    "source": "unstop"
+  },
+  {
     "id": "python-data-science",
     "title": "Python for Data Science",
     "issuer": "LinkedIn Learning",
@@ -11,7 +95,8 @@
       "certificate": "https://linkedin.com/learning/certificates/example1",
       "course": "https://linkedin.com/learning/python-data-science"
     },
-    "featured": true
+    "featured": false,
+    "source": "linkedin"
   },
   {
     "id": "advanced-algorithms",
@@ -25,7 +110,8 @@
       "certificate": "https://coursera.org/verify/example2",
       "course": "https://coursera.org/learn/advanced-algorithms"
     },
-    "featured": true
+    "featured": false,
+    "source": "coursera"
   },
   {
     "id": "flask-web-dev",
@@ -39,7 +125,8 @@
       "certificate": "https://udemy.com/certificate/example3",
       "course": "https://udemy.com/course/flask-web-development"
     },
-    "featured": true
+    "featured": false,
+    "source": "udemy"
   },
   {
     "id": "cpp-mastery",
@@ -52,7 +139,8 @@
     "links": {
       "certificate": "https://unstop.com/certificate/example4"
     },
-    "featured": false
+    "featured": false,
+    "source": "unstop"
   },
   {
     "id": "dsa",
@@ -65,7 +153,8 @@
     "links": {
       "certificate": "https://unstop.com/certificate/example5"
     },
-    "featured": false
+    "featured": false,
+    "source": "unstop"
   },
   {
     "id": "cloud-computing",
@@ -79,6 +168,7 @@
       "certificate": "https://aws.amazon.com/verification/example6",
       "course": "https://aws.amazon.com/training/cloud-practitioner"
     },
-    "featured": false
+    "featured": false,
+    "source": "aws"
   }
 ]
