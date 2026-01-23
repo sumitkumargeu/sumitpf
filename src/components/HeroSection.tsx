@@ -1,6 +1,7 @@
 import { useState, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import aboutData from "@/data/about.json";
+import sumitAvatar from "@/assets/sumit.png";
 import {
   Tooltip,
   TooltipContent,
@@ -44,7 +45,7 @@ const HeroSection = () => {
             >
               <div className="w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-primary/30 animate-pulse-glow">
                 <img
-                  src="https://i.postimg.cc/rscVW41M/photo.jpg"
+                  src={sumitAvatar}
                   alt="Sumit Kumar"
                   className="w-full h-full object-cover object-center"
                 />
