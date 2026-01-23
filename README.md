@@ -1,73 +1,216 @@
-# Welcome to your Lovable project
+# Dexter Portfolio
 
-## Project info
+**Production URL**: https://sumit.paydrive.in/
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+A modern, responsive personal portfolio built with Vite + React + TypeScript. The content is designed to be **data-driven** (JSON files under `src/data`) so you can update sections like About, Skills, Socials, etc. without touching component code.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- **Fast**: Vite dev server + optimized production build.
+- **Modern UI stack**: Tailwind CSS + shadcn/ui + Radix.
+- **Animated sections**: framer-motion based transitions.
+- **Data-driven content**: update JSON in `src/data` to change content.
+- **SEO + Social previews**: `index.html` includes Open Graph, Twitter tags, JSON-LD, and `og-image.png`.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Tech stack
 
-**Use your preferred IDE**
+- **Framework**: React 18
+- **Build tool**: Vite
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI components**: shadcn/ui + Radix UI
+- **Animations**: framer-motion
+- **Icons**: lucide-react
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Project structure (high level)
 
-Follow these steps:
+```text
+.
+├─ public/
+│  ├─ og-image.png
+│  └─ ...
+├─ src/
+│  ├─ assets/
+│  │  └─ sumit.png
+│  ├─ components/
+│  ├─ components/ui/
+│  ├─ data/
+│  │  ├─ about.json
+│  │  ├─ profile.json
+│  │  ├─ socials.json
+│  │  └─ ...
+│  ├─ pages/
+│  ├─ lib/
+│  └─ main.tsx
+├─ index.html
+├─ vite.config.ts
+└─ package.json
+```
+
+---
+
+## Running locally
+
+### Prerequisites
+
+- Node.js (recommended: install via `nvm`)
+- npm (or pnpm/yarn if you prefer)
+
+### Install
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+npm install
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Development server
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```sh
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will be served on the local Vite port (configured in `vite.config.ts`).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Production build
 
-**Use GitHub Codespaces**
+```sh
+npm run build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Preview the production build
 
-## What technologies are used for this project?
+```sh
+npm run preview
+```
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## “Dynamic” content editing (no code changes)
 
-## How can I deploy this project?
+The portfolio is designed so most changes happen in `src/data/*.json`.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+### `src/data/profile.json`
 
-## Can I connect a custom domain to my Lovable project?
+Controls identity-level info used across the site:
 
-Yes, you can!
+- `name`
+- `title`
+- `tagline`
+- `location`
+- `email`
+- `bio`
+- `education`
+- `experience`
+- `funFact`
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Notes:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- If a component reads `profile.avatar`, keep it as a valid URL.
+- The hero image currently uses a bundled image from `src/assets/sumit.png` (so deploys won’t break if an external host removes images).
+
+### `src/data/about.json`
+
+Used to drive About/Tags content (e.g. badges/skill tags shown in the hero/sections).
+
+### `src/data/socials.json`
+
+Used to render social/contact cards and links.
+
+---
+
+## Images / branding
+
+### Social preview + logos
+
+This repo standardizes on:
+
+- `public/og-image.png`
+
+It is used for:
+
+- Open Graph preview (`og:image`)
+- Twitter preview (`twitter:image`)
+- Favicon (`<link rel="icon">`)
+- Apple touch icon (`<link rel="apple-touch-icon">`)
+
+If you replace the image, keep the same filename to avoid changing code.
+
+### Hero avatar
+
+The hero section uses a local image:
+
+- `src/assets/sumit.png`
+
+Replace that file (same filename) to swap the hero avatar without editing code.
+
+---
+
+## SEO configuration (domain-aware)
+
+SEO is configured in `index.html`:
+
+- `canonical`: `https://sumit.paydrive.in/`
+- Open Graph tags (`og:*`)
+- Twitter tags (`twitter:*`)
+- JSON‑LD structured data (`application/ld+json`)
+
+When changing domains, update:
+
+- `link rel="canonical"`
+- `og:url`
+- `twitter:url`
+- JSON‑LD `url`
+
+---
+
+## Deployment
+
+You can deploy anywhere that serves static files.
+
+### Option A: Nginx (static hosting)
+
+1. Build:
+
+```sh
+npm run build
+```
+
+2. Upload `dist/` to your server.
+3. Configure Nginx to serve the `dist/` folder and (important) route SPA paths to `index.html`.
+
+### Option B: Netlify / Vercel / Cloudflare Pages
+
+- **Build command**: `npm run build`
+- **Output directory**: `dist`
+
+After connecting the custom domain, ensure it resolves to:
+
+- `sumit.paydrive.in`
+
+---
+
+## Troubleshooting
+
+### “Cannot find module 'react' / 'vite' / 'framer-motion'” in the editor
+
+Usually means dependencies are not installed or the TS server needs a restart.
+
+- Run `npm install`
+- Restart the TypeScript server (VS Code command)
+
+### “Lovable” references in `package-lock.json`
+
+If you removed a dependency and still see old strings in the lockfile:
+
+- Run `npm install` once to regenerate `package-lock.json`
+
+---
+
+## License
+
+Private project (adjust as needed).
