@@ -73,7 +73,7 @@
     "degree": "B.Tech in Engineering",
     "specialization": "Software Engineering",
     "university": "Graphic Era University, Dehradun",
-    "expectedGraduation": "2026",
+    "expectedGraduation": "2027",
     "cgpa": "8.1",
     "preview": {
       "title": "Education Details",
@@ -81,7 +81,7 @@
         { "label": "Program", "value": "Bachelor of Technology" },
         { "label": "Branch", "value": "Computer Science & Engineering" },
         { "label": "Specialization", "value": "Software Engineering" },
-        { "label": "Duration", "value": "2023 - 2026 (Expected)" },
+        { "label": "Duration", "value": "2023 - 2027 (Expected)" },
         { "label": "CGPA", "value": "8.1 / 10" }
       ],
       "activities": ["Technical Club Lead", "Hackathon Organizer", "Project Mentor"],
