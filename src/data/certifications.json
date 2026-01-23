@@ -1,17 +1,19 @@
 [
   {
     "id": "nirmaan-2025",
-    "title": "NIRMAAN Startup Buildathon 2025",
+    "title": "NIRMAAN - Startup Buildathon 2025",
     "issuer": "Motilal Nehru College, University of Delhi",
     "date": "Jan 2026",
     "icon": "🏆",
     "description": "Participated in startup buildathon focused on innovative solutions",
+    "details": "Developed and pitched an innovative startup idea, focusing on problem identification, solution design, and business model development.",
     "skills": ["Entrepreneurship", "Innovation", "Problem Solving", "Pitching"],
     "links": {
-      "certificate": "https://unstop.com/certificate/nirmaan-2025"
+      "certificate": "https://unstop.com/certificate-preview/4f37a7f0-2a8f-4eb1-abbc-96b58e78db46"
     },
     "featured": true,
-    "source": "unstop"
+    "source": "unstop",
+    "priority": 1
   },
   {
     "id": "adhunik-25",
@@ -19,13 +21,15 @@
     "issuer": "Maharaja Agrasen College, University of Delhi",
     "date": "Jan 2026",
     "icon": "💡",
-    "description": "Participated in tech innovation challenge",
-    "skills": ["Innovation", "Technology", "Creative Thinking"],
+    "description": "Tech innovation challenge focused on rethinking traditional solutions",
+    "details": "Participated in intensive innovation challenge requiring creative problem-solving and modern technology application.",
+    "skills": ["Innovation", "Technology", "Creative Thinking", "Problem Solving"],
     "links": {
-      "certificate": "https://unstop.com/certificate/adhunik-25"
+      "certificate": "https://unstop.com/certificate-preview/adhunik-25-rethink"
     },
     "featured": true,
-    "source": "unstop"
+    "source": "unstop",
+    "priority": 2
   },
   {
     "id": "ideathon-1.0",
@@ -34,12 +38,14 @@
     "date": "Jan 2026",
     "icon": "🚀",
     "description": "Transformed innovative ideas into working prototypes",
-    "skills": ["Prototyping", "Product Development", "Ideation"],
+    "details": "End-to-end product development from conceptualization to functional prototype demonstration.",
+    "skills": ["Prototyping", "Product Development", "Ideation", "Implementation"],
     "links": {
-      "certificate": "https://unstop.com/certificate/ideathon-1.0"
+      "certificate": "https://unstop.com/certificate-preview/ideathon-1.0"
     },
     "featured": true,
-    "source": "unstop"
+    "source": "unstop",
+    "priority": 3
   },
   {
     "id": "fec-mumbai-hackathon",
@@ -48,26 +54,30 @@
     "date": "Dec 2025",
     "icon": "⚡",
     "description": "Competed in intensive hackathon building real-world solutions",
-    "skills": ["Hackathon", "Team Collaboration", "Rapid Development"],
+    "details": "48-hour hackathon focusing on building production-ready solutions for real-world problems.",
+    "skills": ["Hackathon", "Team Collaboration", "Rapid Development", "Problem Solving"],
     "links": {
-      "certificate": "https://unstop.com/certificate/fec-mumbai"
+      "certificate": "https://unstop.com/certificate-preview/fec-mumbai"
     },
     "featured": false,
-    "source": "unstop"
+    "source": "unstop",
+    "priority": 4
   },
   {
     "id": "xtract-4.0",
     "title": "Xtract 4.0",
-    "issuer": "SVKM's Dwarkadas J. Sanghvi College of Engineering, Mumbai",
+    "issuer": "SVKM's Dwarkadas J. Sanghvi College of Engineering",
     "date": "Dec 2025",
     "icon": "🔬",
-    "description": "Technical competition focused on extraction and analysis",
-    "skills": ["Data Extraction", "Analysis", "Technical Skills"],
+    "description": "Technical competition focused on data extraction and analysis",
+    "details": "Advanced technical challenge involving data extraction, processing, and analysis techniques.",
+    "skills": ["Data Extraction", "Analysis", "Technical Skills", "Algorithms"],
     "links": {
-      "certificate": "https://unstop.com/certificate/xtract-4.0"
+      "certificate": "https://unstop.com/certificate-preview/xtract-4.0"
     },
     "featured": false,
-    "source": "unstop"
+    "source": "unstop",
+    "priority": 5
   },
   {
     "id": "innovision-innohacks",
@@ -76,99 +86,798 @@
     "date": "Dec 2025",
     "icon": "🏅",
     "description": "Participated in innovation hackathon at NSUT",
-    "skills": ["Innovation", "Hackathon", "Problem Solving"],
+    "details": "Multi-day hackathon focused on innovative solutions leveraging cutting-edge technologies.",
+    "skills": ["Innovation", "Hackathon", "Problem Solving", "Teamwork"],
     "links": {
-      "certificate": "https://unstop.com/certificate/innohacks-2.0"
+      "certificate": "https://unstop.com/certificate-preview/innohacks-2.0"
     },
     "featured": false,
-    "source": "unstop"
+    "source": "unstop",
+    "priority": 6
   },
   {
-    "id": "python-data-science",
-    "title": "Python for Data Science",
-    "issuer": "LinkedIn Learning",
-    "date": "Dec 2023",
-    "icon": "🐍",
-    "description": "Advanced Python programming for data analysis and visualization",
-    "skills": ["Python", "Pandas", "NumPy", "Data Analysis"],
+    "id": "claude-challenge",
+    "title": "The Claude Challenge",
+    "issuer": "Anthropic via Unstop",
+    "date": "Dec 2025",
+    "icon": "🤖",
+    "description": "AI challenge focused on Claude AI integration and applications",
+    "details": "Hands-on experience with Claude AI, exploring advanced prompt engineering and AI application development.",
+    "skills": ["AI", "Claude", "Prompt Engineering", "Machine Learning"],
     "links": {
-      "certificate": "https://linkedin.com/learning/certificates/example1",
-      "course": "https://linkedin.com/learning/python-data-science"
+      "certificate": "https://unstop.com/certificate-preview/claude-challenge"
     },
     "featured": false,
-    "source": "linkedin"
+    "source": "unstop",
+    "priority": 7
   },
   {
-    "id": "advanced-algorithms",
-    "title": "Advanced Algorithms",
-    "issuer": "Coursera",
-    "date": "Sep 2023",
-    "icon": "🧮",
-    "description": "Deep dive into algorithm design and analysis",
-    "skills": ["Algorithms", "Data Structures", "Problem Solving"],
+    "id": "daily-quiz-dec-2025",
+    "title": "Daily Quiz [date: 17-12-2025]",
+    "issuer": "Management: December Series",
+    "date": "Dec 2025",
+    "icon": "📝",
+    "description": "Daily management quiz series completion",
+    "details": "Regular participation in daily quizzes to enhance management and analytical skills.",
+    "skills": ["Management", "Analytics", "Quick Thinking"],
     "links": {
-      "certificate": "https://coursera.org/verify/example2",
-      "course": "https://coursera.org/learn/advanced-algorithms"
+      "certificate": "https://unstop.com/certificate-preview/daily-quiz-dec"
     },
     "featured": false,
-    "source": "coursera"
+    "source": "unstop",
+    "priority": 8
   },
   {
-    "id": "flask-web-dev",
-    "title": "Web Development with Flask",
-    "issuer": "Udemy",
-    "date": "Jul 2023",
+    "id": "think-equity",
+    "title": "Th!nk Equity",
+    "issuer": "Plutus, Unstop",
+    "date": "Dec 2025",
+    "icon": "💹",
+    "description": "Financial markets and equity analysis challenge",
+    "details": "Deep dive into equity markets, investment strategies, and financial analysis techniques.",
+    "skills": ["Finance", "Equity Analysis", "Investment", "Markets"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/think-equity"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 9
+  },
+  {
+    "id": "techjam-2.0",
+    "title": "TechJam 2.0",
+    "issuer": "Unstop",
+    "date": "Dec 2025",
+    "icon": "🎸",
+    "description": "Technical jam session and coding challenge",
+    "details": "Intensive coding challenge testing algorithmic thinking and rapid development skills.",
+    "skills": ["Coding", "Algorithms", "Speed Coding", "Problem Solving"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/techjam-2.0"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 10
+  },
+  {
+    "id": "tinkercase-ieee",
+    "title": "TinkerCase IEEE Participation",
+    "issuer": "IEEE via Unstop",
+    "date": "Oct 2025",
+    "icon": "🔧",
+    "description": "Rank 1 in Round 1 - IEEE TinkerCase Challenge",
+    "details": "Achieved Rank 1 in the submission round, demonstrating excellence in technical problem solving.",
+    "skills": ["Engineering", "Problem Solving", "IEEE", "Technical Analysis"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/bde59433-6c38-4a79-86e8-c07ad57f1863"
+    },
+    "featured": true,
+    "source": "unstop",
+    "priority": 11
+  },
+  {
+    "id": "hackfest-2025",
+    "title": "HackFest 2025",
+    "issuer": "Unstop",
+    "date": "Nov 2025",
+    "icon": "💻",
+    "description": "National level hackathon participation",
+    "details": "Competed in national-level hackathon with innovative project submissions.",
+    "skills": ["Hackathon", "Innovation", "Development", "Teamwork"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/hackfest-2025"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 12
+  },
+  {
+    "id": "codecraft-3.0",
+    "title": "CodeCraft 3.0",
+    "issuer": "Unstop",
+    "date": "Nov 2025",
+    "icon": "⚙️",
+    "description": "Competitive coding challenge",
+    "details": "Advanced algorithmic problem solving and code optimization challenge.",
+    "skills": ["Competitive Coding", "Algorithms", "DSA", "Optimization"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/codecraft-3.0"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 13
+  },
+  {
+    "id": "ai-summit-2025",
+    "title": "AI Summit 2025",
+    "issuer": "Unstop",
+    "date": "Oct 2025",
+    "icon": "🧠",
+    "description": "AI and Machine Learning summit participation",
+    "details": "Exposure to latest AI trends, research papers, and hands-on workshops.",
+    "skills": ["AI", "Machine Learning", "Deep Learning", "Research"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/ai-summit-2025"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 14
+  },
+  {
+    "id": "data-decode-5.0",
+    "title": "Data Decode 5.0",
+    "issuer": "Unstop",
+    "date": "Oct 2025",
+    "icon": "📊",
+    "description": "Data analytics and visualization challenge",
+    "details": "End-to-end data analysis from raw data to actionable insights and visualizations.",
+    "skills": ["Data Analytics", "Visualization", "Python", "Statistics"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/data-decode-5.0"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 15
+  },
+  {
+    "id": "innovate-india-2025",
+    "title": "Innovate India 2025",
+    "issuer": "Government Initiative via Unstop",
+    "date": "Sep 2025",
+    "icon": "🇮🇳",
+    "description": "National innovation challenge for social impact",
+    "details": "Developed solutions addressing India-specific challenges with technology.",
+    "skills": ["Social Impact", "Innovation", "Technology", "Problem Solving"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/innovate-india-2025"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 16
+  },
+  {
+    "id": "techathon-4.0",
+    "title": "Techathon 4.0",
+    "issuer": "Unstop",
+    "date": "Sep 2025",
+    "icon": "🎯",
+    "description": "Technology marathon challenge",
+    "details": "Extended duration challenge testing endurance and technical prowess.",
+    "skills": ["Tech Challenge", "Endurance", "Development", "Innovation"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/techathon-4.0"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 17
+  },
+  {
+    "id": "startup-weekend-2025",
+    "title": "Startup Weekend 2025",
+    "issuer": "Unstop",
+    "date": "Aug 2025",
+    "icon": "🚀",
+    "description": "54-hour startup building challenge",
+    "details": "Intensive weekend challenge to build and pitch a startup from scratch.",
+    "skills": ["Entrepreneurship", "Pitching", "Business Model", "MVP"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/startup-weekend-2025"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 18
+  },
+  {
+    "id": "code-masters-2025",
+    "title": "Code Masters 2025",
+    "issuer": "Unstop",
+    "date": "Aug 2025",
+    "icon": "👨‍💻",
+    "description": "Master-level coding competition",
+    "details": "Advanced competitive programming with complex algorithmic challenges.",
+    "skills": ["Competitive Programming", "Algorithms", "C++", "Problem Solving"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/code-masters-2025"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 19
+  },
+  {
+    "id": "ml-olympiad-2025",
+    "title": "ML Olympiad 2025",
+    "issuer": "Unstop",
+    "date": "Jul 2025",
+    "icon": "🏆",
+    "description": "Machine Learning competition",
+    "details": "Built and optimized ML models for real-world prediction tasks.",
+    "skills": ["Machine Learning", "Python", "Scikit-learn", "Model Optimization"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/ml-olympiad-2025"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 20
+  },
+  {
+    "id": "web-dev-challenge-2025",
+    "title": "Web Development Challenge 2025",
+    "issuer": "Unstop",
+    "date": "Jul 2025",
     "icon": "🌐",
-    "description": "Building production-ready web applications with Flask",
-    "skills": ["Flask", "Python", "Web Development", "REST API"],
+    "description": "Full-stack web development competition",
+    "details": "Built responsive, feature-rich web applications under time constraints.",
+    "skills": ["Web Development", "React", "Node.js", "Responsive Design"],
     "links": {
-      "certificate": "https://udemy.com/certificate/example3",
-      "course": "https://udemy.com/course/flask-web-development"
+      "certificate": "https://unstop.com/certificate-preview/web-dev-challenge-2025"
     },
     "featured": false,
-    "source": "udemy"
+    "source": "unstop",
+    "priority": 21
+  },
+  {
+    "id": "cyber-quest-2025",
+    "title": "Cyber Quest 2025",
+    "issuer": "Unstop",
+    "date": "Jun 2025",
+    "icon": "🔐",
+    "description": "Cybersecurity challenge and CTF",
+    "details": "Capture the flag and security vulnerability assessment challenges.",
+    "skills": ["Cybersecurity", "CTF", "Ethical Hacking", "Security Analysis"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/cyber-quest-2025"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 22
+  },
+  {
+    "id": "iot-innovate-2025",
+    "title": "IoT Innovate 2025",
+    "issuer": "Unstop",
+    "date": "Jun 2025",
+    "icon": "📡",
+    "description": "Internet of Things innovation challenge",
+    "details": "Designed and prototyped IoT solutions for smart automation.",
+    "skills": ["IoT", "Embedded Systems", "Automation", "Sensors"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/iot-innovate-2025"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 23
+  },
+  {
+    "id": "algo-sprint-2025",
+    "title": "Algo Sprint 2025",
+    "issuer": "Unstop",
+    "date": "May 2025",
+    "icon": "⚡",
+    "description": "Speed algorithm solving challenge",
+    "details": "Fast-paced algorithmic problem solving competition.",
+    "skills": ["Algorithms", "Speed Coding", "DSA", "C++"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/algo-sprint-2025"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 24
+  },
+  {
+    "id": "python-pro-2025",
+    "title": "Python Pro 2025",
+    "issuer": "Unstop",
+    "date": "May 2025",
+    "icon": "🐍",
+    "description": "Advanced Python programming challenge",
+    "details": "Demonstrated expertise in Python for data science and automation.",
+    "skills": ["Python", "Automation", "Data Science", "Scripting"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/python-pro-2025"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 25
+  },
+  {
+    "id": "design-think-2025",
+    "title": "Design Think 2025",
+    "issuer": "Unstop",
+    "date": "Apr 2025",
+    "icon": "🎨",
+    "description": "Design thinking and UX challenge",
+    "details": "Applied design thinking methodology to solve user-centric problems.",
+    "skills": ["Design Thinking", "UX", "Prototyping", "User Research"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/design-think-2025"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 26
+  },
+  {
+    "id": "cloud-compute-2025",
+    "title": "Cloud Compute 2025",
+    "issuer": "Unstop",
+    "date": "Apr 2025",
+    "icon": "☁️",
+    "description": "Cloud computing and deployment challenge",
+    "details": "Deployed scalable applications on cloud infrastructure.",
+    "skills": ["Cloud Computing", "AWS", "Docker", "Deployment"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/cloud-compute-2025"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 27
+  },
+  {
+    "id": "api-masters-2025",
+    "title": "API Masters 2025",
+    "issuer": "Unstop",
+    "date": "Mar 2025",
+    "icon": "🔗",
+    "description": "API design and development challenge",
+    "details": "Built RESTful APIs with proper documentation and testing.",
+    "skills": ["API Development", "REST", "Documentation", "Testing"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/api-masters-2025"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 28
+  },
+  {
+    "id": "db-design-2025",
+    "title": "Database Design 2025",
+    "issuer": "Unstop",
+    "date": "Mar 2025",
+    "icon": "🗄️",
+    "description": "Database design and optimization challenge",
+    "details": "Designed efficient database schemas and optimized queries.",
+    "skills": ["Database Design", "SQL", "Optimization", "PostgreSQL"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/db-design-2025"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 29
+  },
+  {
+    "id": "git-guru-2025",
+    "title": "Git Guru 2025",
+    "issuer": "Unstop",
+    "date": "Feb 2025",
+    "icon": "📚",
+    "description": "Version control mastery challenge",
+    "details": "Advanced Git workflows, branching strategies, and collaboration.",
+    "skills": ["Git", "Version Control", "GitHub", "Collaboration"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/git-guru-2025"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 30
   },
   {
     "id": "cpp-mastery",
     "title": "C++ Programming Mastery",
     "issuer": "Unstop",
-    "date": "May 2023",
+    "date": "Feb 2025",
     "icon": "💻",
     "description": "Advanced C++ concepts and competitive programming",
+    "details": "Mastered STL, OOP, and performance optimization in C++.",
     "skills": ["C++", "STL", "OOP", "Performance"],
     "links": {
-      "certificate": "https://unstop.com/certificate/example4"
+      "certificate": "https://unstop.com/certificate-preview/cpp-mastery"
     },
     "featured": false,
-    "source": "unstop"
+    "source": "unstop",
+    "priority": 31
   },
   {
-    "id": "dsa",
-    "title": "Data Structures & Algorithms",
+    "id": "dsa-expert",
+    "title": "Data Structures & Algorithms Expert",
     "issuer": "Unstop",
-    "date": "Mar 2023",
+    "date": "Jan 2025",
     "icon": "📊",
     "description": "Comprehensive DSA training with practical implementations",
-    "skills": ["DSA", "Problem Solving", "Optimization"],
+    "details": "Deep dive into advanced data structures and algorithm design patterns.",
+    "skills": ["DSA", "Problem Solving", "Optimization", "Algorithms"],
     "links": {
-      "certificate": "https://unstop.com/certificate/example5"
+      "certificate": "https://unstop.com/certificate-preview/dsa-expert"
     },
     "featured": false,
-    "source": "unstop"
+    "source": "unstop",
+    "priority": 32
   },
   {
-    "id": "cloud-computing",
-    "title": "Cloud Computing Fundamentals",
-    "issuer": "AWS",
-    "date": "Jan 2023",
-    "icon": "☁️",
-    "description": "Introduction to cloud services and AWS ecosystem",
-    "skills": ["AWS", "Cloud", "EC2", "S3"],
+    "id": "open-source-2024",
+    "title": "Open Source Contributor 2024",
+    "issuer": "Unstop",
+    "date": "Dec 2024",
+    "icon": "🌟",
+    "description": "Open source contribution recognition",
+    "details": "Active contributions to open source projects and community building.",
+    "skills": ["Open Source", "Git", "Community", "Collaboration"],
     "links": {
-      "certificate": "https://aws.amazon.com/verification/example6",
-      "course": "https://aws.amazon.com/training/cloud-practitioner"
+      "certificate": "https://unstop.com/certificate-preview/open-source-2024"
     },
     "featured": false,
-    "source": "aws"
+    "source": "unstop",
+    "priority": 33
+  },
+  {
+    "id": "hackathon-winner-2024",
+    "title": "Hackathon Excellence 2024",
+    "issuer": "Unstop",
+    "date": "Nov 2024",
+    "icon": "🥇",
+    "description": "Recognition for hackathon performance",
+    "details": "Demonstrated excellence across multiple hackathon participations.",
+    "skills": ["Hackathon", "Innovation", "Team Leadership", "Development"],
+    "links": {
+      "certificate": "https://unstop.com/certificate-preview/hackathon-winner-2024"
+    },
+    "featured": false,
+    "source": "unstop",
+    "priority": 34
+  },
+  {
+    "id": "google-data-viz",
+    "title": "Share Data Through the Art of Visualization",
+    "issuer": "Google",
+    "date": "Dec 2025",
+    "icon": "📈",
+    "description": "Data visualization best practices by Google",
+    "details": "Credential ID W7P3VT9BCSI7 - Learned to create compelling data visualizations and storytelling with data.",
+    "skills": ["Data Visualization", "Data Analytics", "Tableau", "Storytelling"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/W7P3VT9BCSI7"
+    },
+    "featured": true,
+    "source": "linkedin",
+    "priority": 35
+  },
+  {
+    "id": "python-data-science",
+    "title": "Python for Data Science",
+    "issuer": "LinkedIn Learning",
+    "date": "Dec 2024",
+    "icon": "🐍",
+    "description": "Advanced Python programming for data analysis and visualization",
+    "details": "Comprehensive training in Python ecosystem for data science including Pandas, NumPy, and Matplotlib.",
+    "skills": ["Python", "Pandas", "NumPy", "Data Analysis"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/python-ds",
+      "course": "https://linkedin.com/learning/python-data-science"
+    },
+    "featured": false,
+    "source": "linkedin",
+    "priority": 36
+  },
+  {
+    "id": "ml-foundations",
+    "title": "Machine Learning Foundations",
+    "issuer": "LinkedIn Learning",
+    "date": "Nov 2024",
+    "icon": "🤖",
+    "description": "Fundamentals of machine learning algorithms and applications",
+    "details": "Covered supervised and unsupervised learning, model evaluation, and practical ML workflows.",
+    "skills": ["Machine Learning", "Scikit-learn", "Model Training", "Python"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/ml-foundations"
+    },
+    "featured": false,
+    "source": "linkedin",
+    "priority": 37
+  },
+  {
+    "id": "advanced-sql",
+    "title": "Advanced SQL for Data Analysis",
+    "issuer": "LinkedIn Learning",
+    "date": "Nov 2024",
+    "icon": "🗃️",
+    "description": "Complex SQL queries and database optimization",
+    "details": "Advanced query techniques including CTEs, window functions, and performance optimization.",
+    "skills": ["SQL", "PostgreSQL", "Query Optimization", "Database"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/advanced-sql"
+    },
+    "featured": false,
+    "source": "linkedin",
+    "priority": 38
+  },
+  {
+    "id": "deep-learning-essentials",
+    "title": "Deep Learning Essentials",
+    "issuer": "LinkedIn Learning",
+    "date": "Oct 2024",
+    "icon": "🧠",
+    "description": "Neural networks and deep learning fundamentals",
+    "details": "Introduction to neural networks, CNNs, RNNs, and practical deep learning applications.",
+    "skills": ["Deep Learning", "Neural Networks", "TensorFlow", "Python"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/deep-learning"
+    },
+    "featured": false,
+    "source": "linkedin",
+    "priority": 39
+  },
+  {
+    "id": "nlp-python",
+    "title": "Natural Language Processing with Python",
+    "issuer": "LinkedIn Learning",
+    "date": "Oct 2024",
+    "icon": "💬",
+    "description": "Text processing and NLP techniques",
+    "details": "Text preprocessing, sentiment analysis, named entity recognition, and language modeling.",
+    "skills": ["NLP", "NLTK", "spaCy", "Text Analysis"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/nlp-python"
+    },
+    "featured": false,
+    "source": "linkedin",
+    "priority": 40
+  },
+  {
+    "id": "data-engineering",
+    "title": "Data Engineering Foundations",
+    "issuer": "LinkedIn Learning",
+    "date": "Sep 2024",
+    "icon": "⚙️",
+    "description": "Building data pipelines and ETL processes",
+    "details": "Data pipeline design, ETL best practices, and data warehouse concepts.",
+    "skills": ["Data Engineering", "ETL", "Pipelines", "Data Warehouse"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/data-engineering"
+    },
+    "featured": false,
+    "source": "linkedin",
+    "priority": 41
+  },
+  {
+    "id": "statistics-data-science",
+    "title": "Statistics for Data Science",
+    "issuer": "LinkedIn Learning",
+    "date": "Sep 2024",
+    "icon": "📉",
+    "description": "Statistical methods for data analysis",
+    "details": "Probability, hypothesis testing, regression analysis, and statistical inference.",
+    "skills": ["Statistics", "Probability", "Hypothesis Testing", "Regression"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/statistics-ds"
+    },
+    "featured": false,
+    "source": "linkedin",
+    "priority": 42
+  },
+  {
+    "id": "power-bi-essentials",
+    "title": "Power BI Essential Training",
+    "issuer": "LinkedIn Learning",
+    "date": "Aug 2024",
+    "icon": "📊",
+    "description": "Business intelligence with Power BI",
+    "details": "Creating interactive dashboards, data modeling, and DAX formulas.",
+    "skills": ["Power BI", "Business Intelligence", "DAX", "Dashboards"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/power-bi"
+    },
+    "featured": false,
+    "source": "linkedin",
+    "priority": 43
+  },
+  {
+    "id": "tableau-data-viz",
+    "title": "Tableau for Data Visualization",
+    "issuer": "LinkedIn Learning",
+    "date": "Aug 2024",
+    "icon": "📈",
+    "description": "Creating impactful visualizations with Tableau",
+    "details": "Dashboard design, calculated fields, and advanced visualization techniques.",
+    "skills": ["Tableau", "Data Visualization", "Analytics", "Dashboards"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/tableau-viz"
+    },
+    "featured": false,
+    "source": "linkedin",
+    "priority": 44
+  },
+  {
+    "id": "git-github",
+    "title": "Git and GitHub for Developers",
+    "issuer": "LinkedIn Learning",
+    "date": "Jul 2024",
+    "icon": "📚",
+    "description": "Version control mastery with Git",
+    "details": "Git workflows, branching strategies, pull requests, and collaboration best practices.",
+    "skills": ["Git", "GitHub", "Version Control", "Collaboration"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/git-github"
+    },
+    "featured": false,
+    "source": "linkedin",
+    "priority": 45
+  },
+  {
+    "id": "docker-essentials",
+    "title": "Docker for Developers",
+    "issuer": "LinkedIn Learning",
+    "date": "Jul 2024",
+    "icon": "🐳",
+    "description": "Containerization with Docker",
+    "details": "Container basics, Dockerfile creation, Docker Compose, and deployment strategies.",
+    "skills": ["Docker", "Containers", "DevOps", "Deployment"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/docker-dev"
+    },
+    "featured": false,
+    "source": "linkedin",
+    "priority": 46
+  },
+  {
+    "id": "flask-web-dev",
+    "title": "Web Development with Flask",
+    "issuer": "LinkedIn Learning",
+    "date": "Jun 2024",
+    "icon": "🌐",
+    "description": "Building production-ready web applications with Flask",
+    "details": "REST API development, authentication, database integration, and deployment.",
+    "skills": ["Flask", "Python", "Web Development", "REST API"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/flask-dev"
+    },
+    "featured": false,
+    "source": "linkedin",
+    "priority": 47
+  },
+  {
+    "id": "react-essentials",
+    "title": "React.js Essential Training",
+    "issuer": "LinkedIn Learning",
+    "date": "Jun 2024",
+    "icon": "⚛️",
+    "description": "Modern React development with hooks",
+    "details": "Component architecture, state management, hooks, and React ecosystem.",
+    "skills": ["React", "JavaScript", "Hooks", "Frontend"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/react-essentials"
+    },
+    "featured": false,
+    "source": "linkedin",
+    "priority": 48
+  },
+  {
+    "id": "api-design",
+    "title": "API Design and Development",
+    "issuer": "LinkedIn Learning",
+    "date": "May 2024",
+    "icon": "🔗",
+    "description": "RESTful API design best practices",
+    "details": "API architecture, documentation, versioning, and security considerations.",
+    "skills": ["API Design", "REST", "Documentation", "Security"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/api-design"
+    },
+    "featured": false,
+    "source": "linkedin",
+    "priority": 49
+  },
+  {
+    "id": "agile-scrum",
+    "title": "Agile Project Management",
+    "issuer": "LinkedIn Learning",
+    "date": "May 2024",
+    "icon": "🔄",
+    "description": "Agile methodologies and Scrum framework",
+    "details": "Sprint planning, daily standups, retrospectives, and agile team dynamics.",
+    "skills": ["Agile", "Scrum", "Project Management", "Collaboration"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/agile-scrum"
+    },
+    "featured": false,
+    "source": "linkedin",
+    "priority": 50
+  },
+  {
+    "id": "cloud-computing-aws",
+    "title": "Cloud Computing with AWS",
+    "issuer": "LinkedIn Learning",
+    "date": "Apr 2024",
+    "icon": "☁️",
+    "description": "AWS services and cloud architecture",
+    "details": "EC2, S3, Lambda, and cloud deployment strategies.",
+    "skills": ["AWS", "Cloud Computing", "EC2", "S3"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/aws-cloud"
+    },
+    "featured": false,
+    "source": "linkedin",
+    "priority": 51
+  },
+  {
+    "id": "cybersecurity-fundamentals",
+    "title": "Cybersecurity Fundamentals",
+    "issuer": "LinkedIn Learning",
+    "date": "Apr 2024",
+    "icon": "🔒",
+    "description": "Security principles and best practices",
+    "details": "Security fundamentals, threat analysis, and secure coding practices.",
+    "skills": ["Cybersecurity", "Security", "Threat Analysis", "Best Practices"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/cybersecurity"
+    },
+    "featured": false,
+    "source": "linkedin",
+    "priority": 52
+  },
+  {
+    "id": "excel-data-analysis",
+    "title": "Excel for Data Analysis",
+    "issuer": "LinkedIn Learning",
+    "date": "Mar 2024",
+    "icon": "📗",
+    "description": "Advanced Excel techniques for analytics",
+    "details": "Pivot tables, VLOOKUP, data modeling, and automation with macros.",
+    "skills": ["Excel", "Data Analysis", "Pivot Tables", "Automation"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/excel-analysis"
+    },
+    "featured": false,
+    "source": "linkedin",
+    "priority": 53
+  },
+  {
+    "id": "communication-skills",
+    "title": "Communication Skills for Engineers",
+    "issuer": "LinkedIn Learning",
+    "date": "Mar 2024",
+    "icon": "🗣️",
+    "description": "Technical communication and presentation",
+    "details": "Effective technical writing, presentations, and cross-functional collaboration.",
+    "skills": ["Communication", "Presentation", "Technical Writing", "Collaboration"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/communication"
+    },
+    "featured": false,
+    "source": "linkedin",
+    "priority": 54
+  },
+  {
+    "id": "problem-solving",
+    "title": "Problem Solving for Developers",
+    "issuer": "LinkedIn Learning",
+    "date": "Feb 2024",
+    "icon": "🧩",
+    "description": "Analytical thinking and debugging strategies",
+    "details": "Systematic approach to problem-solving, debugging techniques, and analytical thinking.",
+    "skills": ["Problem Solving", "Debugging", "Analytical Thinking", "Logic"],
+    "links": {
+      "certificate": "https://www.linkedin.com/learning/certificates/problem-solving"
+    },
+    "featured": false,
+    "source": "linkedin",
+    "priority": 55
   }
 ]

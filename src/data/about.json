@@ -1,0 +1,157 @@
+{
+  "highlights": [
+    {
+      "id": "ai-passion",
+      "icon": "🤖",
+      "text": "Passionate about AI, IoT, and Automation Systems",
+      "preview": {
+        "title": "AI & Automation Focus",
+        "details": "Specializing in building intelligent systems that leverage machine learning, computer vision, and natural language processing to solve real-world problems.",
+        "projects": ["Sentiment Analysis Platform", "AI Chatbot Systems", "Automation Tools"]
+      },
+      "priority": 1
+    },
+    {
+      "id": "solutions",
+      "icon": "🌍",
+      "text": "Building solutions that bridge physical devices and digital insights",
+      "preview": {
+        "title": "IoT & Digital Solutions",
+        "details": "Creating end-to-end solutions that connect hardware sensors with cloud analytics for smart monitoring and automation.",
+        "domains": ["Smart Agriculture", "Industrial IoT", "Data Analytics"]
+      },
+      "priority": 2
+    },
+    {
+      "id": "python-expertise",
+      "icon": "🐍",
+      "text": "Strong in Python (4+ years) and C++",
+      "preview": {
+        "title": "Programming Expertise",
+        "details": "4+ years of Python experience including data science, web development, and automation. Strong C++ skills for competitive programming and systems.",
+        "languages": ["Python", "C++", "JavaScript", "SQL"]
+      },
+      "priority": 3
+    },
+    {
+      "id": "education",
+      "icon": "🎓",
+      "text": "B.Tech in Engineering at Graphic Era University, Dehradun",
+      "preview": {
+        "title": "Academic Background",
+        "details": "Pursuing B.Tech in Computer Science & Engineering with focus on Software Engineering and AI applications.",
+        "achievements": ["CGPA: 8.1", "Technical Club Lead", "Multiple Hackathon Wins"]
+      },
+      "priority": 4
+    },
+    {
+      "id": "community",
+      "icon": "👥",
+      "text": "Community Owner of Team Dexter (28 members)",
+      "preview": {
+        "title": "Team Dexter Community",
+        "details": "Founded and leading a collaborative group of 28+ developers focused on hackathons, workshops, and project-based learning.",
+        "activities": ["Hackathons", "Code Reviews", "Tech Talks", "Workshops"]
+      },
+      "priority": 5
+    },
+    {
+      "id": "paydrive",
+      "icon": "🚗",
+      "text": "Co-founder of PayDrive.in - Vehicle Insurance Agency",
+      "preview": {
+        "title": "PayDrive.in Startup",
+        "details": "Co-founded and leading tech at PayDrive.in, a vehicle insurance platform streamlining policy comparison, renewal, and claims.",
+        "role": "Co-founder & Tech Lead",
+        "launch": "Q2 2024",
+        "link": "https://paydrive.in"
+      },
+      "priority": 6
+    }
+  ],
+  "education": {
+    "degree": "B.Tech in Engineering",
+    "specialization": "Software Engineering",
+    "university": "Graphic Era University, Dehradun",
+    "expectedGraduation": "2026",
+    "cgpa": "8.1",
+    "preview": {
+      "title": "Education Details",
+      "details": [
+        { "label": "Program", "value": "Bachelor of Technology" },
+        { "label": "Branch", "value": "Computer Science & Engineering" },
+        { "label": "Specialization", "value": "Software Engineering" },
+        { "label": "Duration", "value": "2023 - 2026 (Expected)" },
+        { "label": "CGPA", "value": "8.1 / 10" }
+      ],
+      "activities": ["Technical Club Lead", "Hackathon Organizer", "Project Mentor"],
+      "courses": ["Data Structures", "Algorithms", "Machine Learning", "Database Systems", "Software Engineering"]
+    }
+  },
+  "ventures": [
+    {
+      "id": "team-dexter",
+      "name": "Team Dexter",
+      "role": "Community Owner & Lead",
+      "icon": "👥",
+      "description": "A collaborative group of 25-30+ developers working on projects and competitions",
+      "url": null,
+      "preview": {
+        "title": "Team Dexter Community",
+        "stats": {
+          "activeMembers": 28,
+          "hackathonsOrganized": "5+",
+          "projectsCompleted": "12+"
+        },
+        "activities": ["Hackathons", "Workshops", "Collaborative projects", "Tech talks", "Code reviews"]
+      },
+      "priority": 1
+    },
+    {
+      "id": "paydrive",
+      "name": "PayDrive.in",
+      "role": "Co-founder & Tech Lead",
+      "icon": "🚗",
+      "url": "https://paydrive.in",
+      "description": "Vehicle Insurance Agency streamlining insurance processes",
+      "preview": {
+        "title": "PayDrive.in Platform",
+        "services": ["Policy comparison", "Instant renewal", "Claims processing", "24/7 Support"],
+        "tech": ["Python", "Flask", "PostgreSQL", "React"],
+        "launch": "Q2 2024"
+      },
+      "priority": 2
+    }
+  ],
+  "funFact": "I debug faster when I explain the problem to my coffee mug ☕",
+  "tags": [
+    {
+      "id": "ai-ml",
+      "label": "AI & ML",
+      "icon": "🎯",
+      "description": "Machine Learning, Deep Learning, NLP, and AI-powered applications development",
+      "priority": 1
+    },
+    {
+      "id": "iot",
+      "label": "IoT",
+      "icon": "🌐",
+      "description": "Internet of Things - connecting physical devices with cloud analytics and automation",
+      "priority": 2
+    },
+    {
+      "id": "data-science",
+      "label": "Data Science",
+      "icon": "⚡",
+      "description": "Data analysis, visualization, statistical modeling, and insights extraction",
+      "priority": 3
+    },
+    {
+      "id": "data-analysis",
+      "label": "Data Analysis",
+      "icon": "📊",
+      "description": "Advanced analytics, business intelligence, and data-driven decision making",
+      "priority": 4
+    }
+  ]
+}
