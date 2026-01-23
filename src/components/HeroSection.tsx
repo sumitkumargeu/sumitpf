@@ -69,7 +69,7 @@ const HeroSection = () => {
                 I'm <span className="gradient-text">Sumit Kumar</span>
               </h1>
               <h2 className="text-xl md:text-2xl text-muted-foreground mb-6">
-                Software Engineer & Data Analyst (AI Expert)
+                Software Engineer & Data Analyst
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-8">
                 Passionate about building innovative solutions that bridge the gap between technology and real-world problems. Specializing in AI, IoT, and data-driven development with a focus on creating impactful systems.
