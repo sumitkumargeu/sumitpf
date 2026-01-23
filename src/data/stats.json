@@ -1,0 +1,95 @@
+{
+  "stats": [
+    {
+      "id": "leetcode",
+      "icon": "💻",
+      "label": "LeetCode",
+      "value": "256+",
+      "subtext": "Rating: 1489",
+      "preview": {
+        "title": "LeetCode Performance",
+        "details": [
+          { "label": "Problems Solved", "value": "256+" },
+          { "label": "Contest Rating", "value": "1489" },
+          { "label": "Global Rank", "value": "384,310" },
+          { "label": "Top Percentage", "value": "47.76%" },
+          { "label": "Languages", "value": "C++, Python" }
+        ],
+        "breakdown": {
+          "easy": { "solved": 126, "total": 922 },
+          "medium": { "solved": 97, "total": 1992 },
+          "hard": { "solved": 33, "total": 902 }
+        },
+        "link": "https://leetcode.com/SumitKumarBittu"
+      },
+      "priority": 1
+    },
+    {
+      "id": "problems",
+      "icon": "🏆",
+      "label": "Problems",
+      "value": "256+",
+      "subtext": "C++ & Python",
+      "preview": {
+        "title": "Problem Solving Stats",
+        "details": [
+          { "label": "Total Problems", "value": "256+" },
+          { "label": "Primary Language", "value": "C++ (230)" },
+          { "label": "Secondary Language", "value": "Python" },
+          { "label": "Contest Participation", "value": "15+" },
+          { "label": "Skill Assessments", "value": "12" }
+        ]
+      },
+      "priority": 2
+    },
+    {
+      "id": "streak",
+      "icon": "📊",
+      "label": "Max Streak",
+      "value": "58 days",
+      "subtext": "Consistent coding",
+      "preview": {
+        "title": "Consistency Metrics",
+        "details": [
+          { "label": "Max Streak", "value": "58 days" },
+          { "label": "Active Days", "value": "143" },
+          { "label": "Daily Average", "value": "2-3 hours" },
+          { "label": "Consistency Score", "value": "85%" },
+          { "label": "Year Growth", "value": "150%" }
+        ]
+      },
+      "priority": 3
+    },
+    {
+      "id": "projects",
+      "icon": "🚀",
+      "label": "Projects",
+      "value": "15+",
+      "subtext": "Production apps",
+      "preview": {
+        "title": "Project Portfolio",
+        "details": [
+          { "label": "Production Apps", "value": "15+" },
+          { "label": "Open Source", "value": "10+" },
+          { "label": "Lines Written", "value": "50,000+" },
+          { "label": "Technologies", "value": "Python, C++, JS" },
+          { "label": "Domains", "value": "AI, IoT, Data" }
+        ],
+        "link": "/#projects"
+      },
+      "priority": 4
+    }
+  ],
+  "platforms": {
+    "unstop": {
+      "globalRank": 188413,
+      "totalPoints": 4174,
+      "competitions": 34,
+      "certificates": 34
+    },
+    "linkedin": {
+      "certificates": 21,
+      "connections": "500+"
+    }
+  }
+}
